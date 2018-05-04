@@ -13,6 +13,8 @@
 		FC18537B209C374500917A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC18537A209C374500917A4C /* Assets.xcassets */; };
 		FC18537E209C374500917A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC18537C209C374500917A4C /* LaunchScreen.storyboard */; };
 		FC185381209C374500917A4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC185380209C374500917A4C /* main.m */; };
+		FC18538B209C377100917A4C /* URLProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC185388209C377100917A4C /* URLProtocolViewController.m */; };
+		FC18538C209C377100917A4C /* ZZWebTextReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = FC18538A209C377100917A4C /* ZZWebTextReplace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FC18537D209C374500917A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC18537F209C374500917A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC185380209C374500917A4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC185387209C377100917A4C /* URLProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLProtocolViewController.h; sourceTree = "<group>"; };
+		FC185388209C377100917A4C /* URLProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLProtocolViewController.m; sourceTree = "<group>"; };
+		FC185389209C377100917A4C /* ZZWebTextReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWebTextReplace.h; sourceTree = "<group>"; };
+		FC18538A209C377100917A4C /* ZZWebTextReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWebTextReplace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				FC185372209C374500917A4C /* AppDelegate.m */,
 				FC185374209C374500917A4C /* ViewController.h */,
 				FC185375209C374500917A4C /* ViewController.m */,
+				FC185387209C377100917A4C /* URLProtocolViewController.h */,
+				FC185388209C377100917A4C /* URLProtocolViewController.m */,
+				FC185389209C377100917A4C /* ZZWebTextReplace.h */,
+				FC18538A209C377100917A4C /* ZZWebTextReplace.m */,
 				FC185377209C374500917A4C /* Main.storyboard */,
 				FC18537A209C374500917A4C /* Assets.xcassets */,
 				FC18537C209C374500917A4C /* LaunchScreen.storyboard */,
@@ -144,7 +154,9 @@
 			files = (
 				FC185376209C374500917A4C /* ViewController.m in Sources */,
 				FC185381209C374500917A4C /* main.m in Sources */,
+				FC18538B209C377100917A4C /* URLProtocolViewController.m in Sources */,
 				FC185373209C374500917A4C /* AppDelegate.m in Sources */,
+				FC18538C209C377100917A4C /* ZZWebTextReplace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
